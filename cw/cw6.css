@@ -1,0 +1,51 @@
+.father {
+    width: 300px;
+    height: 700px;
+    margin: 0 auto;
+}
+.header {
+    height: 150px;
+    display: flex;
+    column-gap: 5px;
+    text-align: center;
+}
+.header_home {
+    width: 100px;
+    flex-grow: 1;
+    background: darkblue;
+    height: 150px;
+    border-radius: 5px;
+}
+.header_about {
+    width: 100px;
+    flex-grow: 1;
+    background: darkblue;
+    height: 150px;
+    border-radius: 5px;
+}
+.kabobs {
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    background: blue;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 5px;
+    margin-top: 5px;
+}
+.item {
+    padding: 3px;
+    width: 100px;
+    flex-grow: 1;
+    background: indigo;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
