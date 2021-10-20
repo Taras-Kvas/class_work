@@ -1,0 +1,40 @@
+.father {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 3px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.header, .main_left__header {
+    background: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.main {
+    display: flex;
+    margin-top: 5px;
+}
+.main_left {
+    width: 80%;
+}
+.main_left__content{
+    display: flex;
+    column-gap: 5px;
+    margin-top: 5px;
+
+}
+.main_left__item {
+    background: gray;
+    height: 200px;
+    width: 100px;
+    flex-grow: 1;
+}
+.main_right {
+    flex-grow: 1;
+    background: gray;
+    box-sizing: border-box;
+    border-left: 5px solid white;
+}
